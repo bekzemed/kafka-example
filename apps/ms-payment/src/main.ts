@@ -17,7 +17,7 @@ async function bootstrap() {
           createPartitioner: Partitioners.LegacyPartitioner,
         },
         consumer: {
-          groupId: 'user-consumer',
+          groupId: 'billing-consumer',
         },
       },
     }
